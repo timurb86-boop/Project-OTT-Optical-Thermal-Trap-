@@ -22,7 +22,7 @@ A highly efficient agricultural energy management architecture utilizing surface
 
 **Location:** Tashkent, Uzbekistan (Central Asian Region)
 
-*Date: March 30, 2026
+* Date: March 30, 2026
 
 ---
 
