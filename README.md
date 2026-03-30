@@ -88,9 +88,32 @@ The active selective filter of ATLAS-THERMA utilizes a synergetic nanocomposite 
 * **Primary Candidate:** Nanoparticles of Antimony-doped Tin Oxide (ATO) with a particle size of <50 nm.
 * **Allowed Alternatives:** Indium-doped Tin Oxide (ITO), Aluminum-doped Zinc Oxide (AZO), Gallium-doped Zinc Oxide (GZO), or conductive polymer (PEDOT:PSS) designed to enhance transparency and IR-reflection without forming distinct visual absorption centers.
 
+* ## 5. Projected Thermodynamic Efficiency & IR Compensation
+### Прогнозируемая термодинамическая эффективность и ИК-компенсация
+
+The ATLAS-THERMA protocol fundamentally alters the energy balance of a standard greenhouse. Below are the projected baseline calculations for winter operation (Target internal temperature: +15°C at external -5 -20°C).
+*Протокол ATLAS-THERMA фундаментально меняет энергобаланс теплицы. Ниже приведены расчетные показатели для зимней эксплуатации (Целевая температура внутри: +15°C при наружной -5°C).*
+
+**1. Baseline Heat Loss (Стандартные потери):**
+* A standard single-layer PE greenhouse loses massive amounts of energy via convection and Far-IR radiation.
+* Required heating capacity: **~150 - 200 W/m²** (via gas/water convective heaters).
+
+**2. Passive Shield Conservation (Пассивное сбережение rGO/ATO):**
+* The Low-E nanocomposite layer reflects up to ~85% of outgoing Far-IR thermal radiation. 
+* This reduces the overall thermal transmission coefficient (U-value) of the envelope.
+* **Passive Savings:** Reduces total heat loss by **40% - 60%**.
+
+**3. Active IR Radiant Compensation (Активная ИК-докачка):**
+* Instead of heating the air volume, the ESP32 controller pulses overhead IR-radiant heaters (targeting the 3-8 µm biological absorption band).
+* Because the heat is absorbed directly by the leaf canopy and soil (and any reflected IR bounces back from the ceiling), the required energy input drops drastically.
+* Required IR heating capacity: **~30 - 50 W/m²**.
+
+**🎯 TOTAL PROJECTED EFFICIENCY (Итоговая эффективность):**
+By combining the passive thermal trap with targeted AI-modulated IR heating, the system achieves an estimated **65% - 75% reduction in total energy consumption** compared to traditional convective heating methods.
+
 ---
 
-## 5. Production Cost Estimates (Pilot Scale) / Смета Производства (Пилотный Масштаб)
+## 6. Production Cost Estimates (Pilot Scale) / Смета Производства (Пилотный Масштаб)
 
 *Target manufacturing cost per 1 sq.m of finished film. Components sourced at B2B rates.*
 *Целевая себестоимость производства 1 кв.м готовой пленки. Компоненты закупаются по B2B ценам.*
@@ -109,7 +132,7 @@ The active selective filter of ATLAS-THERMA utilizes a synergetic nanocomposite 
 
 ---
 
-## 6. Core Scientific References / Ключевые Научные Ссылки
+## 7. Core Scientific References / Ключевые Научные Ссылки
 
 1.  **Low-E Film Theory & ATO:** C.G. Granqvist, "Transparent conductors as solar energy materials: A panoramic review," *Solar Energy Materials and Solar Cells*, (Reference on Wien's law application and ATO/ITO properties).
 2.  **rGO Composites for IR Management:** M.H. Al-Saleh et al., "Graphene oxide/polyurethane nanocomposites: Effects of graphene oxide on thermal, mechanical and conductive properties," *Carbon*, (Reference on rGO integration in polymer matrices for thermal control).
