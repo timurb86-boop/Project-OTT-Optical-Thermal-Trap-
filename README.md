@@ -150,7 +150,7 @@ This is the most common misconception. Standard athermal films and the ATLAS-THE
 **Summary (Резюме):** Putting athermal film on a greenhouse will block daytime solar energy, starving the plants of light and heat, while still letting night-time Far-IR radiation escape. ATLAS-THERMA acts as a selective thermal diode: it lets the life-giving energy in and refuses to let it out.
 
 *Накрыть теплицу атермальной пленкой — значит заблокировать дневное солнце (оставив растения без света и тепла) и при этом позволить ночному теплу уйти. ATLAS-THERMA работает как селективный тепловой диод: впускает живительную энергию солнца и ИК-ламп, но отказывается выпускать ее наружу.*
-## 7. Core Scientific References / Ключевые Научные Ссылки
+## 8. Core Scientific References / Ключевые Научные Ссылки
 
 1.  **Low-E Film Theory & ATO:** C.G. Granqvist, "Transparent conductors as solar energy materials: A panoramic review," *Solar Energy Materials and Solar Cells*, (Reference on Wien's law application and ATO/ITO properties).
 2.  **rGO Composites for IR Management:** M.H. Al-Saleh et al., "Graphene oxide/polyurethane nanocomposites: Effects of graphene oxide on thermal, mechanical and conductive properties," *Carbon*, (Reference on rGO integration in polymer matrices for thermal control).
