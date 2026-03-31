@@ -7,12 +7,12 @@ A highly efficient agricultural energy management architecture utilizing surface
 
 ### AUTHORSHIP & CONTACTS | АВТОРСТВО И КОНТАКТЫ
 
-**Lead Developer & System Architect:** Timur Bisembayev
+****Principal Architect & Lead Developer:** Timur Bisembayev
 
-*Concept Creator, Full-stack Engineer, & IT Infrastructure Specialist
+*Concept Creator, Full-stack Engineer, & IoT Infrastructure Specialist*
 
 **Professional Background:**
-* Specialist in AI-driven visual analysis and IoT-integrated energy systems.
+* Specialist in AI-driven visual analysis, Edge-computing, and IoT-integrated energy systems.
 
 **Contact Information:**
 * **Email:** timur.b86@gmail.com, timur.b@list.ru
