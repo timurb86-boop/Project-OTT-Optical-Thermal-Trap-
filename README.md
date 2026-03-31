@@ -132,6 +132,24 @@ By combining the passive thermal trap with targeted AI-modulated IR heating, the
 
 ---
 
+## 7. FAQ & Common Misconceptions / Частые вопросы и заблуждения
+
+### Q1: Why not just use standard automotive Athermal Film? 
+### Вопрос 1: В чем разница между ATLAS-THERMA и обычной автомобильной атермальной пленкой?
+
+This is the most common misconception. Standard athermal films and the ATLAS-THERMA composite solve two diametrically opposed thermodynamic problems.
+*Это самое частое заблуждение. Стандартные атермальные пленки и композит ATLAS-THERMA решают две диаметрально противоположные термодинамические задачи.*
+
+| Feature / Характеристика | Athermal Film (Automotive/Windows) | ATLAS-THERMA (Greenhouse) |
+| :--- | :--- | :--- |
+| **Primary Goal**<br>*(Главная цель)* | **BLOCK HEAT (Блокировать тепло)**<br>Prevent external solar heat from entering the cabin. | **TRAP HEAT (Запереть тепло)**<br>Allow solar/IR energy in, prevent internal heat from escaping. |
+| **Target IR Spectrum**<br>*(Рабочий ИК-спектр)* | **Near-IR (Ближний ИК: 700-2500 nm)**<br>Emitted by the extremely hot Sun. | **Far-IR (Дальний ИК: 7000-14000 nm)**<br>Emitted by the warm soil and plants at night. |
+| **Light Transmittance**<br>*(Пропускание света - PAR)* | **Low/Tinted (Сниженное)**<br>Blocks visible light (glare), which starves plants of photosynthesis. | **Maximized (Максимальное)**<br>Optically clear in the PAR spectrum (400-700 nm) to ensure maximum crop yield. |
+| **System Architecture**<br>*(Архитектура системы)* | **Passive Plastic (Пассивный пластик)**<br>Standalone material. | **Cybernetic Loop (Кибернетический контур)**<br>Passive Low-E shield synchronized with an AI-driven active IR heating controller. |
+
+**Summary (Резюме):** Putting athermal film on a greenhouse will block daytime solar energy, starving the plants of light and heat, while still letting night-time Far-IR radiation escape. ATLAS-THERMA acts as a selective thermal diode: it lets the life-giving energy in and refuses to let it out.
+
+*Накрыть теплицу атермальной пленкой — значит заблокировать дневное солнце (оставив растения без света и тепла) и при этом позволить ночному теплу уйти. ATLAS-THERMA работает как селективный тепловой диод: впускает живительную энергию солнца и ИК-ламп, но отказывается выпускать ее наружу.*
 ## 7. Core Scientific References / Ключевые Научные Ссылки
 
 1.  **Low-E Film Theory & ATO:** C.G. Granqvist, "Transparent conductors as solar energy materials: A panoramic review," *Solar Energy Materials and Solar Cells*, (Reference on Wien's law application and ATO/ITO properties).
