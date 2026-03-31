@@ -72,6 +72,8 @@ Pulse-Width Modulation (PWM) applies targeted IR heat *before* the deficit occur
 
 *Термодинамика и IT:* Термодинамической инерцией управляет открытый Edge AI контроллер (ESP32). Интегрируя API погоды, система вычисляет интеграл дефицита энергии и превентивно включает ИК-нагреватели импульсами (ШИМ), не допуская просадки температуры и обеспечивая лучистый КПД, близкий к 100%. Управление осуществляется через современный Tailwind-дашборд.
 
+---
+
 ### 4: Nanocomposite "ThermaTrap" Formulation (Broad Spectrum)
 
 The active selective filter of ATLAS-THERMA utilizes a synergetic nanocomposite material, defined not by a single rigid recipe, but by a functional range of components designed to establish a stable Percolation Threshold ($\Phi_c$) for Far-IR reflection, while maintaining optical clarity.
@@ -87,6 +89,8 @@ The active selective filter of ATLAS-THERMA utilizes a synergetic nanocomposite 
 **C. Transparent Conductive Oxide (TCO) Dopant (Transparency/Cost Balance):**
 * **Primary Candidate:** Nanoparticles of Antimony-doped Tin Oxide (ATO) with a particle size of <50 nm.
 * **Allowed Alternatives:** Indium-doped Tin Oxide (ITO), Aluminum-doped Zinc Oxide (AZO), Gallium-doped Zinc Oxide (GZO), or conductive polymer (PEDOT:PSS) designed to enhance transparency and IR-reflection without forming distinct visual absorption centers.
+
+---
 
 * ## 5. Projected Thermodynamic Efficiency & IR Compensation
 ### Прогнозируемая термодинамическая эффективность и ИК-компенсация
@@ -113,7 +117,34 @@ By combining the passive thermal trap with targeted AI-modulated IR heating, the
 
 ---
 
-## 6. Production Cost Estimates (Pilot Scale) / Смета Производства (Пилотный Масштаб)
+## 6. The "Oven Myth" & Agronomic Killer Feature 
+### Миф о «Духовке» и Главное агрономическое преимущество
+
+**The Concern:** Will trapping IR radiation and using active radiant heaters "cook" the seedlings or cause thermal stress?
+**Опасение:** Не «сварит» ли рассаду запертое ИК-излучение и активный лучистый нагрев? Не вызовет ли это температурный стресс?
+
+**The Reality (The Killer Feature):**
+ATLAS-THERMA is not an oven; it is a precision biological incubator. In fact, it solves the biggest agronomic problem of traditional winter greenhouses. 
+
+Traditional convective heating (gas cannons or water pipes) heats the *air volume*. Pumping hot air strips moisture from the plants (transpiration stress), while cold drafts create condensation on leaves, leading to devastating fungal diseases like *Phytophthora*. 
+
+ATLAS-THERMA completely changes the biological paradigm:
+
+**1. Algorithmic Micro-Dosing (Алгоритмическое микродозирование)**
+The ESP32 Edge-AI controller does not use blunt "On/Off" logic. It utilizes Predictive Slow-PWM. It delivers micro-pulses of Far-IR energy exactly matching the thermodynamic deficit. The system stops heating *before* the target temperature is breached, making overheating physically impossible.
+
+**2. Spectral Safety (Спектральная безопасность)**
+The rGO/ATO shield is optically clear in the PAR spectrum (Photosynthetically Active Radiation, 400-700 nm). The plants receive 100% of the necessary "light food" for photosynthesis without the damaging UV or burning Near-IR spikes found in raw sunlight.
+
+**3. The Killer Feature: Dew-Point Inversion (Инверсия точки росы — Защита от грибка)**
+Because ATLAS-THERMA uses targeted radiant heat, the energy directly warms the soil and the plant's cellular structure. As a result, **the leaf surface is always slightly warmer than the surrounding air**. 
+*Physics dictates that condensation (dew) cannot form on a surface warmer than the air.* By eliminating leaf condensation, ATLAS-THERMA eradicates the primary breeding ground for fungal infections, drastically reducing the need for chemical fungicides.
+
+*Резюме: Система не сушит воздух пушками. Она мягко греет саму структуру листа, имитируя весеннее солнце. Лист всегда чуть теплее воздуха, что делает выпадение росы (и развитие грибка) физически невозможным. Вы экономите не только на отоплении, но и на химикатах от фитофторы.*
+
+---
+
+## 7. Production Cost Estimates (Pilot Scale) / Смета Производства (Пилотный Масштаб)
 
 *Target manufacturing cost per 1 sq.m of finished film. Components sourced at B2B rates.*
 *Целевая себестоимость производства 1 кв.м готовой пленки. Компоненты закупаются по B2B ценам.*
@@ -132,7 +163,7 @@ By combining the passive thermal trap with targeted AI-modulated IR heating, the
 
 ---
 
-## 7. FAQ & Common Misconceptions / Частые вопросы и заблуждения
+## 8. FAQ & Common Misconceptions / Частые вопросы и заблуждения
 
 ### Q1: Why not just use standard automotive Athermal Film? 
 ### Вопрос 1: В чем разница между ATLAS-THERMA и обычной автомобильной атермальной пленкой?
@@ -150,7 +181,10 @@ This is the most common misconception. Standard athermal films and the ATLAS-THE
 **Summary (Резюме):** Putting athermal film on a greenhouse will block daytime solar energy, starving the plants of light and heat, while still letting night-time Far-IR radiation escape. ATLAS-THERMA acts as a selective thermal diode: it lets the life-giving energy in and refuses to let it out.
 
 *Накрыть теплицу атермальной пленкой — значит заблокировать дневное солнце (оставив растения без света и тепла) и при этом позволить ночному теплу уйти. ATLAS-THERMA работает как селективный тепловой диод: впускает живительную энергию солнца и ИК-ламп, но отказывается выпускать ее наружу.*
-## 8. Core Scientific References / Ключевые Научные Ссылки
+
+---
+
+## 9. Core Scientific References / Ключевые Научные Ссылки
 
 1.  **Low-E Film Theory & ATO:** C.G. Granqvist, "Transparent conductors as solar energy materials: A panoramic review," *Solar Energy Materials and Solar Cells*, (Reference on Wien's law application and ATO/ITO properties).
 2.  **rGO Composites for IR Management:** M.H. Al-Saleh et al., "Graphene oxide/polyurethane nanocomposites: Effects of graphene oxide on thermal, mechanical and conductive properties," *Carbon*, (Reference on rGO integration in polymer matrices for thermal control).
