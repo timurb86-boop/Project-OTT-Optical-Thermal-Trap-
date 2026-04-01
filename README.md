@@ -210,8 +210,43 @@ By combining the absolute thermal isolation of the rGO/ATO nanomembrane with the
 *Целевая Отпускная Цена: **$\$0.99$ / кв.м**. Окупаемость для фермера: ~1 зимний месяц.*
 
 ---
+## 10. ATLAS-Automotive (EV & Transport)
+* The Physics of Active GlazingTraditional athermal films rely on IR absorption, turning the glass into a secondary heat radiator. 
+ATLAS-THERMA utilizes Antimony Tin Oxide (ATO) nanoparticles for Localized Surface Plasmon Resonance (LSPR), physically reflecting the Near-Infrared (NIR) spectrum. 
+Furthermore, the embedded Reduced Graphene Oxide (rGO) network enables Joule Heating for winter defrosting without visible tungsten wires.Governing Equation (Joule Heating): The power dissipated for active defrosting is governed by the sheet resistance ($R_s$) of the rGO layer:$$P = \frac{V^2}{R_s \cdot A}$$(Where $P$ is heating power, $V$ is vehicle voltage e.g., 12V/48V, $R_s$ is sheet resistance in $\Omega/\text{sq}$,
+and $A$ is the area).
+Nominal Performance Benchmarks:VLT (Visible Light Transmission): $\ge 70\%$ (Compliant with global automotive safety standards).IRR (Infrared Rejection): $\ge 95\%$ (via plasmonic reflection, not absorption).Sheet Resistance ($R_s$): $\le 40 \ \Omega/\text{sq}$ (Optimal for 48V EV architectures).
+EV Range Extension: Up to $+15\%$ (achieved by reducing the HVAC compressor load during peak summer conditions).
 
-## 10. FAQ & Common Misconceptions / Частые вопросы и заблуждения
+* Физика активного остекления.
+Традиционные атермальные пленки полагаются на поглощение ИК-излучения, превращая стекло во вторичный радиатор тепла. 
+ATLAS-THERMA использует наночастицы оксида сурьмы-олова (ATO) для Локализованного поверхностного плазмонного резонанса (LSPR), физически отражая ближний инфракрасный спектр (NIR). 
+Кроме того, встроенная сетка восстановленного оксида графена (rGO) обеспечивает Джоулев нагрев для зимнего размораживания без видимых вольфрамовых нитей.
+Определяющий закон (Джоулев нагрев): Рассеиваемая мощность для активного обогрева определяется поверхностным сопротивлением ($R_s$) слоя rGO:$$P = \frac{V^2}{R_s \cdot A}$$(Где $P$ — мощность нагрева, $V$ — напряжение бортсети, например 12V/48V, $R_s$ — поверхностное сопротивление в $\Omega/\text{sq}$, $A$ — площадь). 
+Номинальные эффективные показатели: VLT (Пропускание видимого света): $\ge 70\%$ (соответствует мировым стандартам безопасности ГИБДД/DOT).IRR (Отражение ИК-излучения): $\ge 95\%$ (за счет плазмонного отражения, а не поглощения).
+Поверхностное сопротивление ($R_s$): $\le 40 \ \Omega/\text{sq}$ (идеально для 48-вольтовых архитектур электромобилей).
+Увеличение запаса хода EV: До $+15\%$ (достигается за счет снижения нагрузки на компрессор кондиционера в пиковые летние температуры).
+
+---
+
+## 11. ATLAS-PropTech (Smart Buildings & Architecture)
+* Thermodynamics and RF Energy HarvestingModern skyscrapers consume up to 50% of their energy on HVAC.
+ATLAS-THERMA acts as a selective band-pass filter, drastically reducing the overall heat transfer coefficient (U-value). Concurrently, the macro-scale rGO conductive loop transforms the building's facade into a giant Magnetic Loop Antenna, harvesting ambient electromagnetic radiation (50/60 Hz power line hum, RF/GSM) to power distributed IoT sensor networks.
+Governing Equation 1 (Thermal Transmittance): The total heat transfer through the building envelope is minimized:$$Q = U \cdot A \cdot \Delta T$$(Where $Q$ is heat transfer rate, $U$ is thermal transmittance, $A$ is window area, and $\Delta T$ is the temperature differential).Governing Equation 2 (Faraday's Law for RF Harvesting): The induced electromotive force ($\mathcal{E}$) in the rGO perimeter loop is proportional to its massive area:$$\mathcal{E} = - \frac{d\Phi_B}{dt} = - A_{loop} \cdot \frac{dB}{dt}$$(Where $A_{loop}$ is the macro-area of the facade window/greenhouse, and $B$ is the ambient magnetic field density).
+Nominal Performance Benchmarks: U-Value Drop: Reduction to $\le 1.1 \ \text{W/(m}^2\cdot\text{K)}$ (matching expensive triple-pane Low-E argon windows).HVAC OPEX Reduction: $30\% - 40\%$ annual energy savings on cooling/heating.RF Harvesting Yield: $2 - 5 \ \text{mW/m}^2$ (Continuous micro-power generation for zero-battery IoT nodes like ESP32 in Deep Sleep).Radio Transparency: $100\%$ transmission of 4G/5G signals (unlike metallized Low-E glass which creates Faraday cages).
+
+*  Термодинамика и сбор радиочастотной энергии (RF Harvesting)
+  Современные небоскребы тратят до 50% энергии на климат-контроль (HVAC).
+ATLAS-THERMA действует как селективный полосовой фильтр, радикально снижая коэффициент теплопередачи (U-value). Одновременно с этим, макромасштабный токопроводящий контур rGO превращает фасад здания в гигантскую Рамочную магнитную антенну, собирающую фоновое электромагнитное излучение (наводки ЛЭП 50 Гц, радио/GSM) для питания распределенных сетей IoT-датчиков.
+Определяющий закон 1 (Теплопередача): Общий перенос тепла через оболочку здания минимизируется:$$Q = U \cdot A \cdot \Delta T$$(Где $Q$ — тепловой поток, $U$ — коэффициент теплопередачи, $A$ — площадь окна, $\Delta T$ — разница температур).
+Определяющий закон 2 (Закон Фарадея для сбора ЭМИ): Индуцированная электродвижущая сила ($\mathcal{E}$) в контуре rGO пропорциональна его колоссальной площади:$$\mathcal{E} = - \frac{d\Phi_B}{dt} = - A_{loop} \cdot \frac{dB}{dt}$$(Где $A_{loop}$ — макро-площадь фасада/теплицы, а $B$ — плотность фонового магнитного поля).
+Номинальные эффективные показатели:Снижение U-Value: До $\le 1.1 \ \text{W/(m}^2\cdot\text{K)}$ (соответствует дорогим трехкамерным Low-E стеклопакетам с аргоном).
+Снижение OPEX на HVAC: $30\% - 40\%$ ежегодной экономии энергии на охлаждении/отоплении.Генерация RF-энергии: $2 - 5 \ \text{mW/m}^2$ (непрерывная микрогенерация для безбатарейных IoT-узлов, таких как ESP32 в режиме глубокого сна).
+Радиопрозрачность: $100\%$ пропускание сигналов 4G/5G (в отличие от металлизированных Low-E стекол, создающих клетки Фарадея).
+
+---
+
+## 12. FAQ & Common Misconceptions / Частые вопросы и заблуждения
 
 ### Q1: Why not just use standard automotive Athermal Film? 
 ### Вопрос 1: В чем разница между ATLAS-THERMA и обычной автомобильной атермальной пленкой?
@@ -232,7 +267,7 @@ This is the most common misconception. Standard athermal films and the ATLAS-THE
 
 ---
 
-## 11. Core Scientific References / Ключевые Научные Ссылки
+## 13. Core Scientific References / Ключевые Научные Ссылки
 
 1.  **Low-E Film Theory & ATO:** C.G. Granqvist, "Transparent conductors as solar energy materials: A panoramic review," *Solar Energy Materials and Solar Cells*, (Reference on Wien's law application and ATO/ITO properties).
 2.  **rGO Composites for IR Management:** M.H. Al-Saleh et al., "Graphene oxide/polyurethane nanocomposites: Effects of graphene oxide on thermal, mechanical and conductive properties," *Carbon*, (Reference on rGO integration in polymer matrices for thermal control).
